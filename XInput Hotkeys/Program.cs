@@ -16,7 +16,9 @@ namespace XInput_Hotkeys
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Form1());
+
+			var f = new MainForm();
+			Application.Run();
 		}
 	}
 }
