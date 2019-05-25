@@ -1,0 +1,10 @@
+﻿version: 1.0.{build}
+image: Visual Studio 2017
+configuration: Release
+platform: Any CPU
+build:
+  verbosity: minimal
+artifacts:
+- path: CLI\bin\Release
+  name: XInput Hotkeys
+deploy: off
