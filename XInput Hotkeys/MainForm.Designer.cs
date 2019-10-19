@@ -43,8 +43,6 @@
 			this.label6 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
 			this.label8 = new System.Windows.Forms.Label();
-			this.InstallServiceBtn = new System.Windows.Forms.Button();
-			this.UninstallServiceBtn = new System.Windows.Forms.Button();
 			this.trayMenu.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -169,34 +167,11 @@
 			this.label8.TabIndex = 8;
 			this.label8.Text = "Open Game Bar";
 			// 
-			// InstallServiceBtn
-			// 
-			this.InstallServiceBtn.Location = new System.Drawing.Point(16, 137);
-			this.InstallServiceBtn.Name = "InstallServiceBtn";
-			this.InstallServiceBtn.Size = new System.Drawing.Size(165, 23);
-			this.InstallServiceBtn.TabIndex = 9;
-			this.InstallServiceBtn.Text = "&Install Service";
-			this.InstallServiceBtn.UseVisualStyleBackColor = true;
-			this.InstallServiceBtn.Click += new System.EventHandler(this.InstallServiceBtn_Click);
-			// 
-			// UninstallServiceBtn
-			// 
-			this.UninstallServiceBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.UninstallServiceBtn.Location = new System.Drawing.Point(192, 137);
-			this.UninstallServiceBtn.Name = "UninstallServiceBtn";
-			this.UninstallServiceBtn.Size = new System.Drawing.Size(179, 23);
-			this.UninstallServiceBtn.TabIndex = 10;
-			this.UninstallServiceBtn.Text = "&Uninstall Service";
-			this.UninstallServiceBtn.UseVisualStyleBackColor = true;
-			this.UninstallServiceBtn.Click += new System.EventHandler(this.UninstallServiceBtn_Click);
-			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(383, 172);
-			this.Controls.Add(this.UninstallServiceBtn);
-			this.Controls.Add(this.InstallServiceBtn);
 			this.Controls.Add(this.label8);
 			this.Controls.Add(this.label7);
 			this.Controls.Add(this.label6);
@@ -233,8 +208,6 @@
 		private System.Windows.Forms.Label label6;
 		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.Label label8;
-		private System.Windows.Forms.Button InstallServiceBtn;
-		private System.Windows.Forms.Button UninstallServiceBtn;
 	}
 }
 

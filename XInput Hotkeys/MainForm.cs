@@ -149,19 +149,5 @@ namespace XInput_Hotkeys
 		{
 			Visible = !Visible;
 		}
-
-		private void InstallServiceBtn_Click(object sender, EventArgs e)
-		{
-			var command = "\"" + Application.ExecutablePath + "\" " + Program.INSTALL_SVC_ARGUMENT;
-
-			Program.LaunchCommand(command, true);
-		}
-
-		private void UninstallServiceBtn_Click(object sender, EventArgs e)
-		{
-			var command = "\"" + Application.ExecutablePath + "\" " + Program.UNINSTALL_SVC_ARGUMENT;
-
-			Program.LaunchCommand(command, true);
-		}
 	}
 }
