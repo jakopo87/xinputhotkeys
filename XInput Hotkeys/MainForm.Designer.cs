@@ -43,6 +43,8 @@
 			this.label6 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
 			this.label8 = new System.Windows.Forms.Label();
+			this.InstallServiceBtn = new System.Windows.Forms.Button();
+			this.UninstallServiceBtn = new System.Windows.Forms.Button();
 			this.trayMenu.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -125,9 +127,10 @@
 			// 
 			// label5
 			// 
+			this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.label5.AutoSize = true;
 			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label5.Location = new System.Drawing.Point(140, 81);
+			this.label5.Location = new System.Drawing.Point(145, 81);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(226, 24);
 			this.label5.TabIndex = 5;
@@ -135,9 +138,10 @@
 			// 
 			// label6
 			// 
+			this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.label6.AutoSize = true;
 			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label6.Location = new System.Drawing.Point(140, 57);
+			this.label6.Location = new System.Drawing.Point(145, 57);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(142, 24);
 			this.label6.TabIndex = 6;
@@ -145,9 +149,10 @@
 			// 
 			// label7
 			// 
+			this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.label7.AutoSize = true;
 			this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label7.Location = new System.Drawing.Point(140, 33);
+			this.label7.Location = new System.Drawing.Point(145, 33);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(189, 24);
 			this.label7.TabIndex = 7;
@@ -155,19 +160,43 @@
 			// 
 			// label8
 			// 
+			this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.label8.AutoSize = true;
 			this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label8.Location = new System.Drawing.Point(140, 9);
+			this.label8.Location = new System.Drawing.Point(145, 9);
 			this.label8.Name = "label8";
 			this.label8.Size = new System.Drawing.Size(147, 24);
 			this.label8.TabIndex = 8;
 			this.label8.Text = "Open Game Bar";
 			// 
+			// InstallServiceBtn
+			// 
+			this.InstallServiceBtn.Location = new System.Drawing.Point(16, 137);
+			this.InstallServiceBtn.Name = "InstallServiceBtn";
+			this.InstallServiceBtn.Size = new System.Drawing.Size(165, 23);
+			this.InstallServiceBtn.TabIndex = 9;
+			this.InstallServiceBtn.Text = "&Install Service";
+			this.InstallServiceBtn.UseVisualStyleBackColor = true;
+			this.InstallServiceBtn.Click += new System.EventHandler(this.InstallServiceBtn_Click);
+			// 
+			// UninstallServiceBtn
+			// 
+			this.UninstallServiceBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.UninstallServiceBtn.Location = new System.Drawing.Point(192, 137);
+			this.UninstallServiceBtn.Name = "UninstallServiceBtn";
+			this.UninstallServiceBtn.Size = new System.Drawing.Size(179, 23);
+			this.UninstallServiceBtn.TabIndex = 10;
+			this.UninstallServiceBtn.Text = "&Uninstall Service";
+			this.UninstallServiceBtn.UseVisualStyleBackColor = true;
+			this.UninstallServiceBtn.Click += new System.EventHandler(this.UninstallServiceBtn_Click);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(378, 127);
+			this.ClientSize = new System.Drawing.Size(383, 172);
+			this.Controls.Add(this.UninstallServiceBtn);
+			this.Controls.Add(this.InstallServiceBtn);
 			this.Controls.Add(this.label8);
 			this.Controls.Add(this.label7);
 			this.Controls.Add(this.label6);
@@ -204,6 +233,8 @@
 		private System.Windows.Forms.Label label6;
 		private System.Windows.Forms.Label label7;
 		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.Button InstallServiceBtn;
+		private System.Windows.Forms.Button UninstallServiceBtn;
 	}
 }
 
