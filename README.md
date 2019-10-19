@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/xtniqb3wfjo88t5s?svg=true)](https://ci.appveyor.com/project/jakopo87/xinputhotkeys)
+[![Build status](https://ci.appveyor.com/api/projects/status/x8hjyra2po9vt3km?svg=true)](https://ci.appveyor.com/project/jakopo87/xinputhotkeys)
 
 # xinputhotkeys
 Use a combo of buttons to capture screenshot and video through the Game Bar
